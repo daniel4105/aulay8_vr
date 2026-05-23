@@ -10,7 +10,7 @@ import { DRACOLoader }         from 'three/addons/loaders/DRACOLoader.js';
 import { VRButton }            from 'three/addons/webxr/VRButton.js';
 import { RoomEnvironment }     from 'three/addons/environments/RoomEnvironment.js';
 
-const MODEL_PATH = '../assets/models/modelo.glb';
+const MODEL_PATH = './assets/models/modelo.glb';
 
 let scene, camera, renderer, controls, xrButton;
 let currentEnvMap = null;
